@@ -12,7 +12,18 @@
 
 And you're ready to go! The file will automatically become a new list item in the HTML with a link that will display the file.
 
-### Available Build Commands
+##### Accepted Files
+
+'.epub',
+'.mobi',
+'.jpg',
+'.png',
+'.gif',
+'.pdf',
+'.css',
+'.json'
+
+### Available Commands
 
 - [ ] `yarn dev` - to run index.js file with nodemon.
 - [ ] `yarn start` - to run index.js file with node.

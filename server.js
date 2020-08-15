@@ -28,11 +28,9 @@ function getFilesFromDir(dir, fileTypes) {
 const array = getFilesFromDir('./', [
   '.epub',
   '.mobi',
-  // '.txt',
   '.jpg',
   '.png',
   '.gif',
-  // '.html',
   '.pdf',
   '.css',
   '.json'
