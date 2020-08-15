@@ -3,8 +3,6 @@ const express = require('express'),
   app = express(),
   fs = require('fs');
 
-app.use(express.json());
-
 function getFilesFromDir(dir, fileTypes) {
   var filesToReturn = [];
   function walkDir(currentPath) {
@@ -43,8 +41,6 @@ app.get('/links', async (req, res) => {
     res.json({ error: e.toString() });
   }
 });
-
-//module.exports = array;
 
 app.use(express.static('static'));
 
