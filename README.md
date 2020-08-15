@@ -14,14 +14,14 @@ And you're ready to go! The file will automatically become a new list item in th
 
 ##### Accepted Files
 
-'.epub',
-'.mobi',
-'.jpg',
-'.png',
-'.gif',
-'.pdf',
-'.css',
-'.json'
+.epub,
+.mobi,
+.jpg,
+.png,
+.gif,
+.pdf,
+.css,
+.json
 
 ### Available Commands
 
