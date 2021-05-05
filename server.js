@@ -27,7 +27,7 @@ const array = getFilesFromDir('./', [
   '.epub',
   '.mobi',
   '.jpg',
-  'jpeg',
+  '.jpeg',
   '.png',
   '.gif',
   '.pdf',
